@@ -1,39 +1,48 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 232.089 s <<< FAILURE! - in TestSuite
-orientexchange.TC_LoginPage.login_page[it@orientexchange.in, orient@123](1)  Time elapsed: 17.513 s  <<< FAILURE!
+Tests run: 11, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 308.511 s <<< FAILURE! - in TestSuite
+orientexchange.TC_LoginPage.login_page[it@orientexchange.in, orient@123](1)  Time elapsed: 20.885 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-danger']//text()//parent::div"}
-  (Session info: chrome=91.0.4472.124)
+Unable to locate element: //div[@class='alert alert-danger']//text()//parent::div
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-LRTIQQF', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Himanshu\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c136d8b74670bcdbb5732f559b38a35a
+System info: host: 'DESKTOP-LRTIQQF', ip: '192.168.225.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 12372, moz:profile: C:\Users\Himanshu\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2961b8df-fbb9-4253-aa6b-760403e00550
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']//text()//parent::div}
 	at orientexchange.TC_LoginPage.login_page(TC_LoginPage.java:61)
 
-orientexchange.TC_LoginPage.login_page[i@orientexchange.in, orient@123](2)  Time elapsed: 7.979 s  <<< FAILURE!
+orientexchange.TC_LoginPage.login_page[i@orientexchange.in, orient@123](2)  Time elapsed: 7.611 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [  Email Id or Password does not exist !] but found [  Email Id or Password does not exist. !]
 	at orientexchange.TC_LoginPage.login_page(TC_LoginPage.java:64)
 
-orientexchange.TC_LoginPage.login_page[it@orientexchange.in, orient@13](3)  Time elapsed: 9.379 s  <<< FAILURE!
+orientexchange.TC_LoginPage.login_page[it@orientexchange.in, orient@13](3)  Time elapsed: 7.378 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [  Email Id or Password does not exist !] but found [  Email Id or Password does not exist. !]
 	at orientexchange.TC_LoginPage.login_page(TC_LoginPage.java:64)
 
-orientexchange.TC_LoginPage.login_page[i@orientexchange.in, orient@12](4)  Time elapsed: 8.492 s  <<< FAILURE!
+orientexchange.TC_LoginPage.login_page[i@orientexchange.in, orient@12](4)  Time elapsed: 8.098 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [  Email Id or Password does not exist !] but found [  Email Id or Password does not exist. !]
 	at orientexchange.TC_LoginPage.login_page(TC_LoginPage.java:64)
 
-orientexchange.TC_HomePage.validateTellno  Time elapsed: 3.487 s  <<< FAILURE!
+orientexchange.TC_HomePage.OurServices  Time elapsed: 5.9 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(262, 1148) is out of bounds of viewport width (1366) and height (643)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LRTIQQF', ip: '192.168.225.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 6688, moz:profile: C:\Users\Himanshu\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca39635e-d7bd-4c67-92c6-ef5a65b5e5f6
+	at orientexchange.TC_HomePage.OurServices(TC_HomePage.java:73)
+
+orientexchange.TC_HomePage.validateTellno  Time elapsed: 8.285 s  <<< FAILURE!
 java.lang.AssertionError: expected [8884445321] but found [080-46003700/ 3737800]
 	at orientexchange.TC_HomePage.validateTellno(TC_HomePage.java:91)
 

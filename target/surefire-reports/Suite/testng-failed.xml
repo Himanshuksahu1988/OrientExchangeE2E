@@ -8,6 +8,7 @@
     <classes>
       <class name="orientexchange.TC_HomePage">
         <methods>
+          <include name="OurServices"/>
           <include name="initdriver"/>
           <include name="teardown"/>
           <include name="validateTellno"/>

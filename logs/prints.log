@@ -1,6 +1,5 @@
-01:47:13.415 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !
-01:47:34.189 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !
-01:48:04.556 [main] INFO  orientexchange.base - Succefully clicked on the Logo
-01:48:04.706 [main] INFO  orientexchange.base - USD 74.7225 73.7825 74.9725 75.0725
-01:48:27.156 [main] INFO  orientexchange.base - Sucessfully clicked on directPay
-01:49:09.610 [main] INFO  orientexchange.base - Succefully clicked on the Offers Page
+15:56:33.532 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !
+15:57:14.928 [main] INFO  orientexchange.base - Succefully clicked on the Logo
+15:57:15.075 [main] INFO  orientexchange.base - USD 74.9000 73.7400 75.1000 75.2500
+15:57:35.375 [main] INFO  orientexchange.base - Sucessfully clicked on directPay
+15:58:19.812 [main] INFO  orientexchange.base - Succefully clicked on the Offers Page

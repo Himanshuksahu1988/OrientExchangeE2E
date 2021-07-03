@@ -41,7 +41,8 @@ public class base
 	
 	public WebDriver initializedriver() throws IOException
 	{
-		String browsername=pros.getProperty("browser");
+		//String browsername=pros.getProperty("browser");
+		String browsername=System.getProperty("browse");
 		if(browsername.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", pathdata+"\\src\\main\\java\\resources\\chromedriver.exe");

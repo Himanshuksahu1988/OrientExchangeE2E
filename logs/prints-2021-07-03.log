@@ -1,0 +1,7 @@
+15:48:18.089 [main] INFO  orientexchange.base - Succefully clicked on the Offers Page
+15:54:22.646 [main] INFO  orientexchange.base - Sucessfully selected the city
+15:54:25.804 [main] INFO  orientexchange.base - Landed in login page
+15:54:34.624 [main] INFO  orientexchange.base - Currency Selected 
+15:54:35.113 [main] INFO  orientexchange.base - Product Selected
+15:55:44.758 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !
+15:56:08.042 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="orientexchange.TC_Buy_Currency_Card">
+      <class name="orientexchange.TC_HomePageUrl">
         <methods>
-          <include name="buy_curremcy"/>
-          <include name="closedriver"/>
+          <include name="teardown"/>
           <include name="properties"/>
-          <include name="initdriver"/>
+          <include name="ValidateHomePageURL"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- orientexchange.TC_Buy_Currency_Card -->
+      </class> <!-- orientexchange.TC_HomePageUrl -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
