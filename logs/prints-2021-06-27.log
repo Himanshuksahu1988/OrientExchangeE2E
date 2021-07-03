@@ -1,0 +1,5 @@
+01:16:45.470 [TestNG-test=Test-1] INFO  orientexchange.base - Successfully Initialize the Browser
+01:17:20.908 [TestNG-test=Test-2] INFO  orientexchange.base - Successfully Initialize the Browser
+01:22:52.217 [TestNG-test=Test-2] INFO  orientexchange.base - Forgot Password Page Displyed with Title:--Forgot Password - Orient Exchange and Financial Services Private Limited.
+01:26:40.423 [TestNG-test=Test-2] INFO  orientexchange.base - Password reset Mail sucessfully send to user
+01:32:52.154 [TestNG-test=Test-1] INFO  orientexchange.base - Successfully Initialize the Browser

@@ -1,0 +1,7 @@
+01:43:59.482 [main] INFO  orientexchange.base - Sucessfully clicked on directPay
+01:44:36.375 [main] INFO  orientexchange.base - Succefully clicked on the Offers Page
+01:45:49.134 [main] INFO  orientexchange.base - Sucessfully selected the city
+01:45:52.044 [main] INFO  orientexchange.base - Landed in login page
+01:46:00.081 [main] INFO  orientexchange.base - Currency Selected 
+01:46:00.582 [main] INFO  orientexchange.base - Product Selected
+01:46:53.164 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !

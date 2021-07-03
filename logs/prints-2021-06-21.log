@@ -1,0 +1,7 @@
+23:44:01.604 [main] INFO  orientexchange.base - USD 74.2300 73.4300 74.5600 74.4100
+23:44:17.342 [main] INFO  orientexchange.base - Sucessfully clicked on directPay
+23:44:47.793 [main] INFO  orientexchange.base - Succefully clicked on the Offers Page
+23:45:01.384 [main] INFO  orientexchange.base - 8884445321
+23:45:12.753 [main] INFO  orientexchange.base - Successfully Initialize the Browser
+23:48:41.669 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !
+23:49:01.308 [main] ERROR orientexchange.base -   Email Id or Password does not exist. !

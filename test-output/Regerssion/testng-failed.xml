@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Regerssion]" parallel="methods">
+  <listeners>
+    <listener class-name="orientexchange.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="orientexchange.TC_LoginPage2_Excel_Data">
+        <methods>
+          <include name="initdriver"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- orientexchange.TC_LoginPage2_Excel_Data -->
+      <class name="orientexchange.TC_LoginPage">
+        <methods>
+          <include name="closedriver"/>
+          <include name="initdriver"/>
+        </methods>
+      </class> <!-- orientexchange.TC_LoginPage -->
+      <class name="orientexchange.TC_ForgotPassword">
+        <methods>
+          <include name="initdriver"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- orientexchange.TC_ForgotPassword -->
+      <class name="orientexchange.TC_HomePage_Services_Forms">
+        <methods>
+          <include name="closedriver"/>
+          <include name="initdriver"/>
+        </methods>
+      </class> <!-- orientexchange.TC_HomePage_Services_Forms -->
+      <class name="orientexchange.TC_HomePage">
+        <methods>
+          <include name="closedriver"/>
+          <include name="initdriver"/>
+          <include name="teardown"/>
+          <include name="home_page"/>
+        </methods>
+      </class> <!-- orientexchange.TC_HomePage -->
+      <class name="orientexchange.TC_Buy_Currency_Card">
+        <methods>
+          <include name="initdriver"/>
+        </methods>
+      </class> <!-- orientexchange.TC_Buy_Currency_Card -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regerssion] -->

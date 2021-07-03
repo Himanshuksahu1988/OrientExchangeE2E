@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="orientexchange.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="orientexchange.TC_HomePage">
+        <methods>
+          <include name="initdriver"/>
+          <include name="teardown"/>
+          <include name="validateTellno"/>
+          <include name="properties"/>
+        </methods>
+      </class> <!-- orientexchange.TC_HomePage -->
+      <class name="orientexchange.TC_Sell_Currency">
+        <methods>
+          <include name="initiate"/>
+          <include name="properties"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- orientexchange.TC_Sell_Currency -->
+      <class name="orientexchange.TC_LoginPage">
+        <methods>
+          <include name="login_page" invocation-numbers="0 1 2 3"/>
+          <include name="teardown"/>
+          <include name="properties"/>
+          <include name="initdriver"/>
+        </methods>
+      </class> <!-- orientexchange.TC_LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
